@@ -2,7 +2,8 @@ sudo: required
 language: go
 go: 1.13.7
 
-os: linux-ppc64le
+os: linux
+arch: ppc64le
 
 env:
   global:
